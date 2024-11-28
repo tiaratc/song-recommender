@@ -1,8 +1,2 @@
-pip==24.3.1
-setuptools>=58.0.4
-wheel
-Cython
-numpy==1.21.0
-scikit-surprise==1.1.1
 streamlit
 pandas
