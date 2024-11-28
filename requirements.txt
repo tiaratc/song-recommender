@@ -2,3 +2,4 @@ streamlit
 pandas
 scikit-surprise
 scikit-surprise==1.1.1
+wheel
