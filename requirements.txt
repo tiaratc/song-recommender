@@ -1,4 +1,7 @@
+--only-binary=:all: scikit-surprise
+scikit-surprise==1.1.1
 numpy
 streamlit
 pandas
-scikit-surprise
+setuptools>=58.0.4
+wheel
