@@ -1,14 +1,9 @@
 import streamlit as st
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
-import pickle
 
-# Load the saved scaler and standardized dataset
-with open("scaler.pkl", "rb") as scaler_file:
-    scaler = pickle.load(scaler_file)
-
-# Load your dataset
-data_standardized = pd.read_csv("audio_features_cleaned.csv")  # Update with your file path
+# Load the cleaned dataset
+data_standardized = pd.read_csv("audio_features_cleaned.csv")  # Ensure this file path is correct
 features = ['danceability', 'energy', 'valence', 'popularity']  # Features used in the recommendation
 
 # Recommendation function
