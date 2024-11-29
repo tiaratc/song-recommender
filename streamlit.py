@@ -33,7 +33,7 @@ if "song_workflow" not in st.session_state:
     st.session_state.song_workflow = False
 
 # App Layout and Theme
-st.image("/Users/tiaracahyadi/Documents/'JCDS/C - Portfolio/Port 3/Model 2/header.png", use_column_width=True)
+st.image("header.png", use_column_width=True)
 st.title("🎵 Song Recommender")
 st.write("Get personalized song recommendations!")
 
